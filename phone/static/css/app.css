@@ -1,0 +1,251 @@
+
+.header.am-header{
+	background:url("../images/icon/vk_header.png") left top repeat;
+	padding:8px;
+	height:50px;
+	box-sizing:border-box;
+	line-height:32px;
+}
+
+.header.am-header .am-header-title{
+	font-size:20px;
+}
+
+.header.am-header a > img{
+	width:30px;
+	height:30px;
+}
+
+.header.am-header .am-header-nav{
+	margin-top:7px;
+}
+.footer{
+	width:100%;
+	height:60px;
+	position:fixed;
+	bottom:0;
+	left:0;
+	background:url("../images/icon/vk_footer.png");
+	padding:6px;
+	box-sizing:border-box;
+}
+.footer li{
+	float:left;
+	width:33%;
+}
+.footer li > a{
+	display:block;
+	color:#fff;
+	text-align:center;
+	font-size:12px;
+}
+
+.footer li > a > .jicon{
+	display:block;
+
+}
+.footer li > a > .jicon img{
+	width:30px;
+	height:30px;
+}
+.footer li .tab-label{
+	display:inline-block;
+	padding:4px 0;
+}
+
+#menu .am-offcanvas-bar{
+	background:url("../images/icon/vk_menu_bg.png") center center repeat;
+}
+#menu .am-nav li{
+	border-bottom:1px solid #ccc;
+	padding:6px 20px;
+	
+}
+#menu  .am-offcanvas-content{
+	padding-left:0;
+	padding-right:0;
+}
+
+#menu .am-nav li .vk_icon_menu_home{
+	background:url("../images/icon/vk_icon_menu_home.png") left top no-repeat;
+}
+#menu .am-nav li .vk_icon_menu_bbs{
+	background:url("../images/icon/vk_icon_menu_bbs.png") left top no-repeat;
+}
+#menu .am-nav li .vk_icon_menu_thread{
+	background:url("../images/icon/vk_icon_menu_thread.png") left top no-repeat;
+}
+#menu .am-nav li .vk_icon_menu_fav{
+	background:url("../images/icon/vk_icon_menu_fav.png") left top no-repeat;
+}
+#menu .am-nav li .vk_icon_menu_pm{
+	background:url("../images/icon/vk_icon_menu_pm.png") left top no-repeat;
+}
+#menu .am-nav li .vk_icon_menu_profile{
+	background:url("../images/icon/vk_icon_menu_profile.png") left top no-repeat;
+}
+#menu .am-nav li .vk_icon{
+	background-size:30px 30px;
+	font-size:14px;
+	height:30px;
+	line-height:30px;
+	padding:0;
+	text-indent:40px;
+	font-weight:bold;
+}
+/*首页*/
+
+/*home开始*/
+.homectrl .am-slider-default .am-control-nav{
+	bottom:15px;
+}
+
+.homectrl .nav-article  li{
+	float:left;
+	width:25%;
+
+}
+
+.homectrl .nav-article  li a{
+	display:block;
+	text-align:center;
+	color:#222;
+}
+
+.homectrl .nav-article  li a .num{
+	width:50px;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	border-radius:10px;
+	font-size:36px;
+	font-weight:bold;
+	margin:0 auto;
+	color:#fff;
+}
+.homectrl .nav-article  li a .title{
+	font-size:12px;
+	padding:8px 0;
+}
+
+.homectrl .jrecommend .title,
+.homectrl .marvellous-post .title{
+	padding:8px 0 8px 10px;
+	line-height:32px;
+	border-bottom:1px solid #D9D8D8;
+	font-size:15px;
+	color:#0162ac;
+}
+
+.homectrl .jrecommend-list .item{
+	border-bottom:1px solid #ddd;
+	padding:5px 0;
+	display:flex;
+	flex-direction:row;
+	height:60px;
+	overflow:hidden;
+}
+.homectrl .jrecommend-list .item .img{
+	flex:1;
+}
+.homectrl .jrecommend-list .item .img img{
+	width:90%;
+	margin:0 auto;
+}
+.homectrl .jrecommend-list .item .jart{
+	flex:4;
+}
+.homectrl .jrecommend-list .item .jart .jart-title{
+	font-size:14px;
+	line-height:20px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+}
+.homectrl .jrecommend-list .item .jart .jart-content{
+	font-size:12px;
+	color:#777;
+	line-height:16px;
+	width:95%;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+
+.no-post{
+	font-size:12px;
+	padding:8px;
+}
+/*home结束*/
+
+
+/*文章阅读页开始*/
+.articleReading {
+	background-color:#ddd;
+}
+
+.articleReading  .art-header .am-header-title{
+	font-size:16px;
+	color:#222;;
+
+}
+.articleReading  .art-header{
+	height:36px;
+	line-height:36px;
+	background-color:#fff;
+}
+.articleReading .am-header-default .am-header-nav>a{
+	color:#222;
+}
+.articleReading .title{
+	font-size:14px;
+	padding:12px;
+}
+
+.articleReading  .art-info{
+	display:flex;
+	flex-direction:row;
+	height:70px;
+}
+.articleReading  .art-info .head-portrait{
+	justify-content: center;
+    align-items: center;
+    display: flex;
+	flex:1;
+}
+.articleReading  .art-info .head-portrait img{
+	width:80%;
+	border-radius:50%;
+}
+
+.articleReading  .art-info .info-box{
+	display:flex;
+	flex-direction:column;
+	justify-content: space-between;
+	flex:5;
+	padding:12px 8px;
+	font-size:14px;
+}
+
+.articleReading  .art-info .info-box .landlord,
+.articleReading  .art-info .info-box .info{
+	display:flex;
+	justify-content:space-between;
+}
+
+.articleReading .art-content{
+	padding:10px 20px;
+	font-size:14px;
+	line-height:22px;
+
+}
+
+.articleReading .art-content p{
+	margin-top:12px;
+
+}
+
+
+/*文章阅读页结束*/

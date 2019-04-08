@@ -1,0 +1,79 @@
+<div class="emotionalArticle">
+	<div class="hot clearfix">
+		<div class="carousel swiper-container fl">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide" ng-repeat="item in carouselData"  ui-sref="articleReading({mold:item.mold,id:item.id})">
+		        	<img ng-src="../static/images/introduce/{{item.imgs[0]}}" alt="">
+		        	<p class="tit">{{item.title}}</p>
+		        </div> 
+		    </div>
+		    <!-- 如果需要分页器 -->
+		    <div class="swiper-pagination"></div>
+		    
+		    <!-- 如果需要导航按钮 -->
+		    <div class="swiper-button-prev"></div>
+		    <div class="swiper-button-next"></div>
+		    
+		    <!-- 如果需要滚动条 -->
+		    <div class="swiper-scrollbar"></div>
+			
+		</div>
+		<div class="hot-articles fr">
+			<ul class="clearfix first-row">
+				<li ng-repeat="item in hotData1" ng-mouseover="addAct($event)" ng-mouseout="removeAct($event)"  ui-sref="articleReading({mold:item.mold,id:item.id})">
+					<a href="">
+						<img ng-src="../static/images/introduce/{{item.imgs[0]}}" alt="">
+					</a>
+					<div class="introduce">
+						{{item.title}}
+						<p class="publish-date">{{ turn(item.publicationTime) | date:'yyyy-MM-dd'}}</p>
+					</div>
+				</li>
+				
+			</ul>
+			<ul class="clearfix">
+				<li ng-repeat="item in hotData2" ng-mouseover="addAct($event)" ng-mouseout="removeAct($event)" ui-sref="articleReading({mold:item.mold,id:item.id})">
+					<a href="">
+						<img ng-src="../static/images/introduce/{{item.imgs[0]}}" alt="">
+					</a>
+					<div class="introduce">
+						{{item.title}}
+						<p class="publish-date">{{turn(item.publicationTime)}}</p>
+					</div>
+				</li>
+				
+			</ul>
+		</div>
+	</div>
+	<div class="content-wrap">
+		<ul class="list clearfix">
+			<li ng-repeat="item in listData" ui-sref="articleReading({mold:item.mold,id:item.id})">
+				<div class="img">
+					<img ng-src="../static/images/introduce/{{item.imgs[0]}}" alt="placeholder+image">
+				</div>
+				<div class="text">
+					<p class="title">{{item.title}}</p>
+					<div class="substance">
+						<p ng-repeat="substance in item.content">
+							{{substance}}
+						</p>
+					</div>
+				</div>
+				
+				<ul class="clearfix label-box">
+					<li random-bg ng-repeat="labels in item.label">{{labels}}</li>
+				</ul>
+			</li>
+			
+		</ul>
+	</div>
+
+	<div class="pages clearfix">
+        <div id="Pagination"></div>
+        <div class="searchPage">
+          <span class="page-sum">共<strong class="allPage">15</strong>页</span>
+          <span class="page-go">跳转<input type="text">页</span>
+          <a href="javascript:;" class="page-btn">GO</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,421 @@
+
+.view-router{
+	width:1000px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+/*头部开始*/
+.header{
+	width:100%;
+	background-color:#393D49;
+}
+
+.header .logo{
+	margin-right:10px;
+}
+
+.header-warp{
+	width:1200px;
+	margin:0 auto;
+
+}
+
+/*头部结束*/
+
+/*首页 开始*/
+.thome{
+	
+}
+.thome .hot{
+	border:1px solid #ccc;
+	margin:10px 0;
+	padding:10px;
+	border-top:none;
+	box-shadow:0 0 4px #000;
+}
+.thome .carousel{
+	width:400px;
+	height:214px;
+	overflow:hidden;
+	margin-left:0;
+}
+.thome .carousel .tit{
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	width:100%;
+	text-align:center;
+	padding:15px 0;
+	background:#000;
+	opacity:0.7;
+	color:#fff;
+}
+.thome .hot-articles{
+	width:574px;
+}
+.thome .hot-articles .first-row{
+	margin-bottom:14px;
+}
+.thome .hot-articles li{
+	width:100px;
+	height:100px;
+	margin-left:14px;
+	float:left;
+	position:relative;
+	cursor:pointer;
+	overflow: hidden;
+}
+.thome .hot-articles li .introduce{
+	position:absolute;
+	left:0;
+	top:100%;
+	width:100%;
+	height:100%;
+	background:#000;
+	opacity:0.6;
+	color:#fff;
+	line-height:18px;
+	padding:4px;
+	box-sizing:border-box;
+	transition:all 0.6s;
+}
+.thome .hot-articles li .introduce.act{
+	top:0;
+}
+.thome .hot-articles li .introduce .publish-date{
+	padding-top:8px;
+}
+.thome .hot-articles li a{
+	display:block;
+
+}
+.thome .hot-articles li a img{
+	height:100px;
+}
+
+.thome .content-wrap{
+
+}
+.thome .content-wrap .list > li{
+	float:left;
+	width:32%;
+	padding:10px 10px;
+	margin:10px 5px;
+	box-sizing:border-box;
+	overflow:hidden;
+	border:1px solid #ccc;
+	cursor:pointer;
+}
+.thome .content-wrap .list > li .text{
+	height:170px;
+	overflow:hidden;
+}
+.thome .content-wrap .list > li > .img{
+	width:100%;
+	height:150px;
+	overflow:hidden;
+}
+.thome .content-wrap .list > li > .img img{
+	width:100%;
+}
+.thome .content-wrap .list > li .title{
+	font-size:18px;
+	font-weight:bold;
+	padding-top:10px;
+	padding-bottom:4px;
+}
+
+.thome .content-wrap .list > li .substance{
+	line-height:22px;
+}
+.thome .content-wrap .list .label-box{
+	margin-top:8px;
+}
+.thome .content-wrap .list .label-box li{
+	float:left;
+	margin:0 4px;
+	padding:2px 8px;
+	background:#16C0F8;
+	color:#fff;
+}
+/*首页 结束*/
+
+
+/*情感文章 开始*/
+.emotionalArticle{
+	
+}
+.emotionalArticle .hot{
+	border:1px solid #ccc;
+	margin:10px 0;
+	padding:10px;
+	border-top:none;
+	box-shadow:0 0 4px #000;
+}
+.emotionalArticle .carousel{
+	width:400px;
+	height:214px;
+	overflow:hidden;
+	margin-left:0;
+}
+.emotionalArticle .hot-articles{
+	width:574px;
+}
+.emotionalArticle .hot-articles .first-row{
+	margin-bottom:14px;
+}
+.emotionalArticle .hot-articles li{
+	width:100px;
+	height:100px;
+	margin-left:14px;
+	float:left;
+	position:relative;
+	cursor:pointer;
+	overflow: hidden;
+}
+.emotionalArticle .hot-articles li .introduce{
+	position:absolute;
+	left:0;
+	top:100%;
+	width:100%;
+	height:100%;
+	background:#000;
+	opacity:0.6;
+	color:#fff;
+	line-height:18px;
+	padding:4px;
+	box-sizing:border-box;
+	transition:all 0.6s;
+}
+.emotionalArticle .hot-articles li .introduce.act{
+	top:0;
+}
+.emotionalArticle .hot-articles li .introduce .publish-date{
+	padding-top:8px;
+}
+.emotionalArticle .hot-articles li a{
+	display:block;
+
+}
+.emotionalArticle .hot-articles li a img{
+	height:100px;
+}
+
+.emotionalArticle .content-wrap{
+
+}
+.emotionalArticle .content-wrap .list > li{
+	float:left;
+	width:32%;
+	padding:10px 10px;
+	margin:10px 5px;
+	box-sizing:border-box;
+	overflow:hidden;
+	border:1px solid #ccc;
+	cursor:pointer;
+}
+.emotionalArticle .content-wrap .list > li .text{
+	height:170px;
+	overflow:hidden;
+}
+.emotionalArticle .content-wrap .list > li > .img{
+	width:100%;
+	height:150px;
+	overflow:hidden;
+}
+.emotionalArticle .content-wrap .list > li > .img img{
+	width:100%;
+}
+.emotionalArticle .content-wrap .list > li .title{
+	font-size:18px;
+	font-weight:bold;
+	padding-top:10px;
+	padding-bottom:4px;
+}
+
+.emotionalArticle .content-wrap .list > li .substance{
+	line-height:22px;
+}
+.emotionalArticle .content-wrap .list .label-box{
+	margin-top:8px;
+}
+.emotionalArticle .content-wrap .list .label-box li{
+	float:left;
+	margin:0 4px;
+	padding:2px 8px;
+	background:#16C0F8;
+	color:#fff;
+}
+.emotionalArticle .pages{
+	margin:20px auto;
+}
+/*情感文章 结束*/
+
+
+
+/*故事文章 开始*/
+.storyArticle{
+	
+}
+.storyArticle .hot{
+	border:1px solid #ccc;
+	margin:10px 0;
+	padding:10px;
+	border-top:none;
+	box-shadow:0 0 4px #000;
+}
+.storyArticle .carousel{
+	width:400px;
+	height:214px;
+	overflow:hidden;
+	margin-left:0;
+}
+.storyArticle .hot-articles{
+	width:574px;
+}
+.storyArticle .hot-articles .first-row{
+	margin-bottom:14px;
+}
+.storyArticle .hot-articles li{
+	width:100px;
+	height:100px;
+	margin-left:14px;
+	float:left;
+	position:relative;
+	cursor:pointer;
+	overflow: hidden;
+}
+.storyArticle .hot-articles li .introduce{
+	position:absolute;
+	left:0;
+	top:100%;
+	width:100%;
+	height:100%;
+	background:#000;
+	opacity:0.6;
+	color:#fff;
+	line-height:18px;
+	padding:4px;
+	box-sizing:border-box;
+	transition:all 0.6s;
+}
+.storyArticle .hot-articles li .introduce.act{
+	top:0;
+}
+.storyArticle .hot-articles li .introduce .publish-date{
+	padding-top:8px;
+}
+.storyArticle .hot-articles li a{
+	display:block;
+
+}
+.storyArticle .hot-articles li a img{
+	height:100px;
+}
+
+.storyArticle .content-wrap{
+
+}
+.storyArticle .content-wrap .list > li{
+	float:left;
+	width:32%;
+	padding:10px 10px;
+	margin:10px 5px;
+	box-sizing:border-box;
+	overflow:hidden;
+	border:1px solid #ccc;
+	cursor:pointer;
+}
+.storyArticle .content-wrap .list > li .text{
+	height:170px;
+	overflow:hidden;
+}
+.storyArticle .content-wrap .list > li > .img{
+	width:100%;
+	height:150px;
+	overflow:hidden;
+}
+.storyArticle .content-wrap .list > li > .img img{
+	width:100%;
+}
+.storyArticle .content-wrap .list > li .title{
+	font-size:18px;
+	font-weight:bold;
+	padding-top:10px;
+	padding-bottom:4px;
+}
+
+.storyArticle .content-wrap .list > li .substance{
+	line-height:22px;
+}
+.storyArticle .content-wrap .list .label-box{
+	margin-top:8px;
+}
+.storyArticle .content-wrap .list .label-box li{
+	float:left;
+	margin:0 4px;
+	padding:2px 8px;
+	background:#16C0F8;
+	color:#fff;
+}
+.storyArticle .pages{
+	margin:20px auto;
+}
+/*故事文章 结束*/
+
+/*文章阅读开始*/
+.articleReading{
+
+}
+.articleReading .ins{
+	width:800px;
+	margin:6px auto 20px;
+	border:1px solid #ccc;
+	padding:15px;
+	-webkit-box-shadow:0 0 20px #555;  
+	-moz-box-shadow:0 0 20px #555;  
+	box-shadow:0 0 20px #555;  
+}
+.articleReading .title{
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:8px;
+	font-size:22px;
+}
+
+.articleReading .info {
+	text-align:center;
+}
+.articleReading .info-list{
+	display:inline-block;
+}
+.articleReading .info li{
+	float:left;
+	margin-right:10px;
+}
+.articleReading .article-content{
+	line-height:24px;
+	font-size:16px;
+	padding-top:20px;
+}
+.articleReading .article-content p{
+	padding:6px 0;
+}
+.articleReading .labels{
+	margin-top:10px;
+	margin-bottom:15px;
+}
+.articleReading .labels li{
+	float:left;
+	margin-right:6px;
+	padding:1px 4px;
+	color:#fff;
+	background:#7CFC00;
+}
+
+
+
+
+
+/*文章阅读结束*/
